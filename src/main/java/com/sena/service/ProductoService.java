@@ -1,6 +1,6 @@
 package com.sena.service;
 
-import com.sena.entity.Producto;
+import com.sena.dto.ProductoDTO;
 
-public interface ProductoService extends PageableService<Producto, Long>{
+public interface ProductoService extends PageableService<ProductoDTO, Long>{
 }
